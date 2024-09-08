@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2"
+  },
+  "name": "chardle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk4x/chardle.git"
+  },
+  "keywords": [
+    "dle",
+    "games"
+  ],
+  "author": "mk4x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mk4x/chardle/issues"
+  },
+  "homepage": "https://github.com/mk4x/chardle#readme",
+  "description": ""
+}
