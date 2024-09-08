@@ -41,6 +41,7 @@
         
         <div class="container container-md">
           <div class="game">
+            <div id="character"></div>
             
           </div>
         </div>
@@ -74,9 +75,10 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      fetch('https://chardle-i5wm7ph4h-mk4xs-projects.vercel.app/character')
+      fetch('https://chardle-p7l756ylz-mk4xs-projects.vercel.app')
         .then(response => response.json())
         .then(data => {
+          console.log(data);
           const characterDiv = document.getElementById('character');
           characterDiv.innerHTML = `
             <p>Name: ${data.name}</p>
