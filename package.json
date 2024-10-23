@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "express": "^4.19.2"
+    "express": "^4.21.1"
   },
   "name": "chardle",
   "version": "1.0.0",
